@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard | The Odin Project</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./script.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="nav-link logo">
+        <i class="icon bx bxs-dashboard"></i>
+        <span class="title">Dashboard</span>
+      </a>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#" class="nav-link current">
+            <i class="icon bx bxs-home"></i>
+            <span class="text">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="icon bx bx-user-circle"></i>
+            <span class="text">Profile</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="icon bx bx-message"></i>
+            <span class="text">Messages</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="icon bx bx-history"></i>
+            <span class="text">History</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="icon bx bx-task"></i>
+            <span class="text">Tasks</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="icon bx bx-group"></i>
+            <span class="text">Communities</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="icon bx bx-cog"></i>
+            <span class="text">Settings</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="icon bx bx-help-circle"></i>
+            <span class="text">Support</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="icon bx bx-shield-plus"></i>
+            <span class="text">Privacy</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="container">
+        <div class="header-top">
+          <div class="search">
+            <label for="search-bar">
+              <i class="icon bx bx-search"></i>
+            </label>
+            <input type="search" name="search-bar" id="search-bar" />
+          </div>
+          <i class="icon bx bx-bell"></i>
+          <div class="profile">
+            <img
+              src="Admin.jpg"
+              alt="profile picture"
+              class="profile-picture"
+              style="background-color: #5feda3"
+            />
+            <span class="profile-name">Imtisal Abdulazeez</span>
+          </div>
+        </div>
+        <div class="header-main"></div>
+        
+        <div class="header-main">
+            <div class="profile">
+              <img
+                src="Admin.jpg"
+                alt="profile picture"
+                class="profile-picture"
+                style="background-color: #5feda3"
+              />
+              <div class="profile-name-container">
+                <p class="greetings">Hi there,</p>
+                <p class="profile-name">
+                  Imtisal Abdulazeez <span class="username">(@Imtisal)</span>
+                </p>
+              </div>
+            </div>
+            <div class="action-buttons">
+              <button type="button">New</button>
+              <button type="button">Upload</button>
+              <button type="button">Share</button>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <main>
+        <div class="container">
+          <div id="projects">
+            <h2>Your Projects</h2>
+            <ul>
+              <li class="project card">
+                <div class="content">
+                  <h3 class="title">NGO Website</h3>
+                  <p>
+                    This project is for a Non-Govermental Organization. This Organization aims to provide financial and emotional support to victims of domestic violence.
+                  </p>
+                </div>
+                <div class="buttons">
+                  <button type="button">
+                    <i class="icon bx bx-comment-add"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-bookmark-plus"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-git-repo-forked"></i>
+                  </button>
+                </div>
+              </li>
+              <li class="project card">
+                <div class="content">
+                  <h3 class="title">Measurement Tracker Website</h3>
+                  <p>
+                    Create a user-friendly website that allows individuals to track and record various measurements, providing a centralized platform for monitoring progress and achieving goals.
+                  </p>
+                </div>
+                <div class="buttons">
+                  <button type="button">
+                    <i class="icon bx bx-comment-add"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-bookmark-plus"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-git-repo-forked"></i>
+                  </button>
+                </div>
+              </li>
+              <li class="project card">
+                <div class="content">
+                  <h3 class="title">Data App</h3>
+                  <p>
+                    A data app is a software application that collects, stores, and analyzes data to provide valuable insights and information
+                  </p>
+                </div>
+                <div class="buttons">
+                  <button type="button">
+                    <i class="icon bx bx-comment-add"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-bookmark-plus"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-git-repo-forked"></i>
+                  </button>
+                </div>
+              </li>
+              <li class="project card">
+                <div class="content">
+                  <h3 class="title">Recipe App</h3>
+                  <p>
+                    
+A recipe app is a software application that provides users with a collection of recipes, cooking instructions, and meal planning features
+                  </p>
+                </div>
+                <div class="buttons">
+                  <button type="button">
+                    <i class="icon bx bx-comment-add"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-bookmark-plus"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-git-repo-forked"></i>
+                  </button>
+                </div>
+              </li>
+              <li class="project card">
+                <div class="content">
+                  <h3 class="title">Ad Blocker</h3>
+                  <p>
+                    AdBlocker is a popular browser extension that blocks advertisements on websites, YouTube, and social media platforms
+                  </p>
+                </div>
+                <div class="buttons">
+                  <button type="button">
+                    <i class="icon bx bx-comment-add"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-bookmark-plus"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-git-repo-forked"></i>
+                  </button>
+                </div>
+              </li>
+              <li class="project card">
+                <div class="content">
+                  <h3 class="title">Saving App</h3>
+                  <p>
+                    A saving app is a mobile application designed to help users manage their finances, set savings goals, and track their progress.
+                  </p>
+                </div>
+                <div class="buttons">
+                  <button type="button">
+                    <i class="icon bx bx-comment-add"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-bookmark-plus"></i>
+                  </button>
+                  <button type="button">
+                    <i class="icon bx bx-git-repo-forked"></i>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <aside>
+            <div id="announcements">
+              <h2>Announcements</h2>
+              <ul class="card">
+                <li>
+                  <h4>Site Maintenance</h4>
+                  <p>
+                    Site maintenance refers to the ongoing tasks and activities required to keep a website running smoothly, securely, and performing optimally.
+                  </p>
+                </li>
+                <li>
+                  <h4>Community Share Day</h4>
+                  <p>
+                    Community Share Day is an event or initiative that encourages individuals to share their skills, knowledge, resources, or time with others in their community
+                  </p>
+                </li>
+                <li>
+                  <h4>Updated Privacy Policy</h4>
+                  <p>
+                    A privacy policy is a document that describes how personal information is collected, used, and protected.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div id="trending">
+              <h2>Trending</h2>
+              <ul class="card">
+                <li class="profile">
+                  <img
+                    src="admin2.jpg"
+                    alt="profile picture"
+                    class="profile-picture"
+                    style="background-color: #e69dcd"
+                  />
+                  <div class="profile-container">
+                    <p class="username">@Imran</p>
+                    <p class="project-name">App Developer</p>
+                  </div>
+                </li>
+                <li class="profile">
+                  <img
+                    src="Admin.jpg"
+                    alt="profile picture"
+                    class="profile-picture"
+                    style="background-color: #5feda3"
+                  />
+                  <div class="profile-container">
+                    <p class="username">@Imtisal</p>
+                    <p class="project-name">NGO Project</p>
+                  </div>
+                </li>
+                <li class="profile">
+                  <img
+                    src="admin3.jpg"
+                    alt="profile picture"
+                    class="profile-picture"
+                    style="background-color: #5ed0b9"
+                  />
+                  <div class="profile-container">
+                    <p class="username">@Salim</p>
+                    <p class="project-name">Drop-Shipping App</p>
+                  </div>
+                </li>
+                <li class="profile">
+                  <img
+                    src="admin4.jpg"
+                    alt="profile picture"
+                    class="profile-picture"
+                    style="background-color: #ff6948"
+                  />
+                  <div class="profile-container">
+                    <p class="username">@Victor</p>
+                    <p class="project-name">Saving App</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </main>
+    </body>
+  </html>
